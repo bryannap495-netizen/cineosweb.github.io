@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Cine-OS V2</title>
+  <title>NezOS</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
   
   
@@ -30,9 +30,9 @@
 
 <section id="boot-layer" aria-label="System Boot Sequence">
   <div id="boot-content">
-    <h1 class="boot-logo">CINE-OS</h1>
-    <p class="boot-sub">Cine-Hub Softwares // V2</p>
-    <button id="boot-btn" onclick="startBootSequence()" tabindex="1">Enter CINE</button>
+    <h1 class="boot-logo">NEZOS</h1>
+    <p class="boot-sub">NezOS</p>
+    <button id="boot-btn" onclick="startBootSequence()" tabindex="1">Enter NezOS</button>
     <div class="boot__hint">Double-Tap ENTER to skip sequence</div>
   </div>
   <video id="boot-video" playsinline aria-hidden="true"><source src="Videos/Boot.mp4" type="video/mp4"></video>
@@ -191,7 +191,7 @@
 <aside id="ciri-window" aria-label="Ciri AI Assistant">
   <div id="ciri-boot-screen">
     <div id="boot-ciri-text" class="boot-ciri">CIRI.</div>
-    <div id="boot-sub-text" class="boot-sub">Cine-Hub SOFTWARES</div>
+    <div id="boot-sub-text" class="boot-sub">NezOS</div>
     <div id="boot-loader" class="boot-loader">
       <div id="boot-spinner" class="spinner"></div>
       <div id="boot-status-text" class="boot-status">Connecting To Gemini...</div>
@@ -348,7 +348,7 @@
       <div class="config__text"><strong>Tab Cloak</strong><small>Disguises the OS tab name and icon</small></div>
     </div>
     <select class="config__select" id="cloak-select" onchange="window.parent.updateCloak(this.value)">
-      <option value="none">None (Cine-OS)</option>
+      <option value="none">None (NezOS)</option>
       <option value="google">Google</option>
       <option value="drive">Google Drive</option>
       <option value="canvas">Canvas</option>
